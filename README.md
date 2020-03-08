@@ -8,6 +8,18 @@ Statement: Neural Network for predicting Bike Sharing Rides. Here NN will predic
 
 Network Description: The network has two layers, a hidden layer and an output layer. The hidden layer uses the sigmoid function for activations. The output layer has only one node and is used for the regression, the output of the node is the same as the input of the node. That is, the activation function is f(x)=xf(x)=x . A function that takes the input signal and generates an output signal, but takes into account the threshold, is called an activation function. We work through each layer of our network calculating the outputs for each neuron. All of the outputs from one layer become inputs to the neurons on the next layer. This process is called forward propagation. We use the weights to propagate signals forward from the input to the output layers in a neural network. We use the weights to also propagate error backwards from the output back into the network to update our weights. This is called backpropagation.
 
+## Project structure
+
+neural_network.py - Neural Network implementation.
+
+neural_network_notebook.ipynb - Main notebook file.
+
+Bike-Sharing-Dataset/day.csv - Information about each trip taken using the bike share system by day.
+
+Bike-Sharing-Dataset/hour.csv - Information about each trip taken using the bike share system by hour.
+
+Bike-Sharing-Dataset/Readme.txt - General dataset description.
+
 ## Results
 - All the code in the notebook runs in Python 3 without failing, and all unit tests pass.
 - The number of epochs is chosen such the network is trained well enough to accurately make predictions but is not overfitting to the training data.
