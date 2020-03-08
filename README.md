@@ -20,6 +20,15 @@ Bike-Sharing-Dataset/hour.csv - Information about each trip taken using the bike
 
 Bike-Sharing-Dataset/Readme.txt - General dataset description.
 
+## Steps to Run
+- conda create -n test python=3
+
+- conda activate test
+
+- conda install numpy matplotlib pandas jupyter notebook
+
+- jupyter notebook neural_network.ipynb
+
 ## Results
 - All the code in the notebook runs in Python 3 without failing, and all unit tests pass.
 - The number of epochs is chosen such the network is trained well enough to accurately make predictions but is not overfitting to the training data.
